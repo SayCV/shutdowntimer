@@ -4,7 +4,6 @@ package main
 	Shutdown Timer for Windows
 	date: 2014-06-06
 	Auther: Donald Tu
-	Contact: support@software-download.name
 */
 
 import (
