@@ -1,5 +1,4 @@
-## Free Windows Command Line software to shutdown your Computer from Command Prompt, Schedule the shutdown time, shutdown the PC for Windows 8, 7, Windows Vista, Windows XP
-
+#### Free Windows Command Line software to shutdown your Computer from Command Prompt, Schedule the shutdown time
 
 
 ### Parameters:
@@ -15,7 +14,7 @@
 * **-show**: Show the GUI window:  
 		shutdowntimer -show=true 
 
-![Shutdown Timer](shutdowntimer.png)
+![Shutdown Timer](https://github.com/donaldtu/shutdowntimer/raw/master/shutdowntimer.png)
 
 
 ### How to set Shutdown timer via GUI Window:
@@ -49,5 +48,5 @@ Startup path in Windows XP:
 
 It's freeware, the program was written in Go programming language.
 
-### [Download Binary](http://software-download.name/download/free/shutdowntimer.exe)
+### [Download Windows Command Line Shutdown Binary](http://software-download.name/2012/windows-command-line-shutdown/)
 
