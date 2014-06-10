@@ -109,6 +109,9 @@ func main() {
 		initGUI()
 		jww.INFO.Println("GUI started")
 	} else {
+		for {
+			time.Sleep(time.Minute)
+		}
 	}
 }
 

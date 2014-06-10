@@ -9,8 +9,6 @@ rsrc [-manifest FILE.exe.manifest] [-ico FILE.ico[,FILE2.ico...]] -o FILE.syso
 
 */
 
-%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Dropbox\short;C:\Dropbox\d-language\dmd\windows\bin;C:\Dropbox\d-language\dm\bin;D:\Go\bin;D:\golib\bin;D:\MinGW32\bin;C:\Dropbox\software;E:\Applications\TortoiseHg\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Common Files\Adobe\AGL;D:\msysgit\bin;C:\Program Files (x86)\GNU\Claws Mail\pub
-
 import (
 	"flag"
 	"fmt"
@@ -242,9 +240,10 @@ func initGUI() {
 	lblTip.SetPos(space, y+h+space)
 	lblTip.SetSize(300, 25)
 	lblTip.SetCaption("Tips: 0:0 to disable shutdown")
-	mw.Show()
 
 	initValue()
+
+	mw.Show()
 
 	gform.RunMainLoop()
 
